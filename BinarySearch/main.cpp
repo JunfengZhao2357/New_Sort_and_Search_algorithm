@@ -68,9 +68,9 @@ int right_bound_binary_search(vector<int> nums, int target) {
 
 int main(){
     vector<int> test1 = {1,2,2,2,3,4,5};
-    int position1 = BinarySearch(test1,2);
-    int position2 = left_bound_binarysearch(test1,2);
-    int position3 = right_bound_binary_search(test1,2);
-    cout<<position1<<" "<<position2<<" "<<position3<<endl;
+    int position_01 = BinarySearch(test1,2);
+    int position_02 = left_bound_binarysearch(test1,2);
+    int position_03 = right_bound_binary_search(test1,2);
+    cout<<position_01<<" "<<position_02<<" "<<position_03<<endl;
     return 0;
 }
